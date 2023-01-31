@@ -1,13 +1,13 @@
 #include <LiquidCrystal.h>
 
 // pin led
-int led 13
+int led = 13;
 
 // pin sensore ultrasuoni
 int triggerPort = 7;
 int echoPort = 8;
 
-// connessione display (pin)
+// connessione display (rs, en, d4, d5, d6, d7)
 LiquidCrystal lcd(12, 11, 5, 4, 3, 2);
 
 void setup() {
